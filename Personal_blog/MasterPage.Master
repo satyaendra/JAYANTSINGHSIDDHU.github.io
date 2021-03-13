@@ -1,0 +1,336 @@
+﻿ <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Personal_Blog.Personal_blog.MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>JayantSingh| Home :: My Developer</title>
+      <!--meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="Multi-Pro Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+      <script>
+          addEventListener("load", function () {
+              setTimeout(hideURLbar, 0);
+          }, false);
+
+          function hideURLbar() {
+              window.scrollTo(0, 1);
+          }
+      </script>
+      <!--//meta tags ends here-->
+      <!--booststrap-->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <!--//booststrap end-->
+      <!-- font-awesome icons -->
+      <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+      <!-- //font-awesome icons -->
+      <!--gallery-->
+      <link rel="stylesheet" type="text/css" href="css/set1.css" />
+      <!--//gallery-->
+      <!--lightbox slider-->
+      <link rel="stylesheet" href="css/lightbox.css">
+      <!-- lightbox slider-->
+      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+      <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+      <link href="//fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,500,600,700" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+       <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+   </head>
+   <body>
+       <form runat="server">
+           <header>
+      <div class="header-outs" id="header">
+         <div class="header-w3layouts">
+            <div class="container">
+               <!-- open/close -->
+               <div class="hedder-logo">
+                  <h1><a href="Home.aspx">JAYANT SINGH</a></h1>
+               </div>
+               <!-- /open/close -->
+               <!-- navigation section  -->
+               <div class="menu">
+                  <a href="#" id="menuToggle"> <span class="navClosed"></span> </a>
+                  <nav>  
+                     <a href="Home.aspx" class="active">Home</a> 
+                     <a href="#about" class="scroll">About</a>
+                     <a href="#service" class="scroll">Services</a>
+                     <a href="Gallery.aspx" class="scroll">Gallery</a>
+                     <a href="#testimonials" class="scroll">Qutoes</a>
+                     <a href="#contact" class="scroll">Contact</a> 
+                  </nav>
+               </div>
+               <div class="clearfix"> </div>
+               <!-- /navigation section -->
+            </div>
+            <div class="clearfix"> </div>
+         </div>
+         <!--banner -->
+         <!-- Slideshow 4 -->
+         <div class="slider">
+            <div class="callbacks_container">
+               <ul class="rslides" id="slider4">
+                  <li>
+                     <div class="slider-img one-img">
+                        <div class="container">
+                           <div class="slider-info">
+                              <h5>We Do<br>Best Work</h5>
+                              <p>We feel like We haven't done my best work yet. We feel like there's a world of possibilities out there.</p>
+                              <div class="outs_more-buttn">
+                                 <a href="#contact" class="scroll">Contact Now</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="slider-img two-img">
+                        <div class="container">
+                           <div class="slider-info">
+                              <h5>We Make<br>Work Easy</h5>
+                              <p>The technological revolution at home makes it much easier for computers to do our work.</p>
+                              <div class="outs_more-buttn">
+                                 <a href="#contact" class="scroll">Contact Now</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="slider-img three-img">
+                        <div class="container">
+                           <div class="slider-info">
+                              <h5>We Make<br>Best Pojects</h5>
+                              <p>'The Mindy Project' is really best when you're loose, and we improvise a lot, and that's what's best.</p>
+                              <div class="outs_more-buttn">
+                                 <a href="#contact" class="scroll">Contact Now</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <!-- This is here just to demonstrate the callbacks -->
+            <!-- <ul class="events">
+               <li>Example 4 callback events</li>
+               </ul>-->
+         </div>
+         <div class="clearfix"></div>
+      </div>
+               </header>
+      <!-- //banner -->
+     
+      <!-- footer -->
+      
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+           <footer class="py-lg-4 py-md-3 py-sm-3 py-3">
+         <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+            <div class="row ">
+               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6">
+                  <h4 class="pb-lg-4 pb-md-3 pb-3 text-uppercase">Address</h4>
+                  <div class="bottom-para ">
+                     <div class="footer-office-hour">
+                        <ul>
+                           <li class="mb-2">
+                              <h6>Address</h6>
+                           </li>
+                           <li>
+                              <p>5A,Higway Mention,Near BMW Showroom<br>226028,Lucknow.</p>
+                           </li>
+                        </ul>
+                        <ul>
+                           <li class="my-2">
+                              <h6>Phone</h6>
+                           </li>
+                           <li>
+                              <p>+(91)9956755602</p>
+                           </li>
+                           <li class="my-2">
+                              <h6>Email</h6>
+                           </li>
+                           <li>
+                              <p><a href="mailto:hackerjayant4@gmail.com">hackerjayant4@gamil.com</a></p>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6">
+                  <h4 class="pb-lg-4 pb-md-3 pb-3 text-uppercase">Contact Us</h4>
+                  <div class="address_mail_footer_grids">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.5551237436634!2d81.04590651446296!3d26.88587198313911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be2742913c30b%3A0xfab1e294107b5270!2sHighway+Mansion!5e0!3m2!1sen!2sin!4v1547229212666"></iframe>
+                  </div>
+               </div>
+               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6">
+                  <h4 class="pb-lg-4 pb-md-3 pb-3 text-uppercase">Twitter Us</h4>
+                  <div class="footer-office-hour">
+                     <ul>
+                        <li>
+                           <p>sit amet consectetur adipiscing</p>
+                        </li>
+                        <li class="my-1">
+                           <p><a href="mailto:info@example.com">info@example.com</a></p>
+                        </li>
+                        <li class="mb-3"><span>Posted 3 days ago.</span></li>
+                        <li>
+                           <p>sit amet consectetur adipiscing</p>
+                        </li>
+                        <li class="my-1">
+                           <p><a href="mailto:info@example.com">info@example.com</a></p>
+                        </li>
+                        <li><span>Posted 3 days ago.</span></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="dance-agile-info col-lg-3 col-md-6 col-sm-6">
+                  <h4 class="pb-lg-4 pb-md-3 pb-3 text-uppercase">Currculum-Vitae</h4>
+                  <div class="newsletter">
+                  </div>
+                  <div class="footer-office-hour mt-3">
+                      <div class="container">
+                     <div class="outs_more-buttn" style="width:300px;">
+                         <br />
+                         <br />
+                         <a href="cv/Friday%20latest%20resume%20(3).docx" >DOWNLOAD</a>
+                     </div>
+                          </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copy-agile-right text-center pt-2">
+               <div class="list-social-icons text-center py-lg-4 py-md-3 py-3">
+                  <ul>
+                     <li><a href="https://www.facebook.com/jayantsingh.sidhu"><span class="fab fa-facebook-f"></span></a></li>
+                     <li><a href="https://www.instagram.com/jayantsinghsiddhu/?hl=en"><span class="fas fa-instagram"></span></a></li>
+                     <li><a href="https://twitter.com/abaf70e050d24cf"><span class="fas fa-twitter"></span></a></li>
+                     <li><a href="https://www.linkedin.com/in/jayant-singh-57646016b/"><span class="fab fa-linkedin"></span></a></li>
+                  </ul>
+               </div>
+               <p> 
+                  © 2019 JAYANT SINGH-BLOG. All Rights Reserved | Design by <a href="#" target="_blank">JAYANT SINGH</a>
+               </p>
+            </div>
+         </div>
+      </footer>
+      <!-- //footer -->
+      <!--js working-->
+      <script src='js/jquery-2.2.3.min.js'></script>
+      <!--//js working-->	
+      <!--  light box js -->
+      <script src="js/lightbox-plus-jquery.min.js"> </script> 
+      <!-- //light box js-->   
+      <!--responsiveslides banner-->
+      <script src="js/responsiveslides.min.js"></script>
+      <script>
+          // You can also use "$(window).load(function() {"
+          $(function () {
+              // Slideshow 4
+              $("#slider4").responsiveSlides({
+                  auto: true,
+                  pager: false,
+                  nav: true,
+                  speed: 900,
+                  namespace: "callbacks",
+                  before: function () {
+                      $('.events').append("<li>before event fired.</li>");
+                  },
+                  after: function () {
+                      $('.events').append("<li>after event fired.</li>");
+                  }
+              });
+
+          });
+      </script>
+      <!--// responsiveslides banner-->		
+      <!--navbar-->
+      <script>
+          (function ($) {
+              // Menu Functions
+              $(document).ready(function () {
+                  $('#menuToggle').click(function (e) {
+                      var $parent = $(this).parent('.menu');
+                      $parent.toggleClass("open");
+                      var navState = $parent.hasClass('open') ? "hide" : "show";
+                      $(this).attr("title", navState + " navigation");
+                      // Set the timeout to the animation length in the CSS.
+                      setTimeout(function () {
+                          console.log("timeout set");
+                          $('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+                      }, 200);
+                      e.preventDefault();
+                  });
+              });
+          })(jQuery);
+      </script>
+      <!--About OnScroll-Number-Increase-JavaScript -->
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.countup.js"></script>
+      <script>
+          $('.counter').countUp();
+      </script>
+      <!-- //OnScroll-Number-Increase-JavaScript -->
+      <!-- start-smoth-scrolling -->
+      <script src="js/move-top.js"></script>
+      <script src="js/easing.js"></script>
+      <script>
+          jQuery(document).ready(function ($) {
+              $(".scroll").click(function (event) {
+                  event.preventDefault();
+                  $('html,body').animate({
+                      scrollTop: $(this.hash).offset().top
+                  }, 900);
+              });
+          });
+      </script>
+      <!-- start-smoth-scrolling -->
+      <!-- here stars scrolling icon -->
+      <script>
+          $(document).ready(function () {
+
+              var defaults = {
+                  containerID: 'toTop', // fading element id
+                  containerHoverID: 'toTopHover', // fading element hover id
+                  scrollSpeed: 1200,
+                  easingType: 'linear'
+              };
+
+
+              $().UItoTop({
+                  easingType: 'easeOutQuart'
+              });
+
+          });
+      </script>
+      <!-- //here ends scrolling icon -->
+      <!--bootstrap working-->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- //bootstrap working-->
+           <script>
+               var slideIndex = 0;
+               carousel();
+
+               function carousel() {
+                   var i;
+                   var x = document.getElementsByClassName("mySlides");
+                   for (i = 0; i < x.length; i++) {
+                       x[i].style.display = "none";
+                   }
+                   slideIndex++;
+                   if (slideIndex > x.length) { slideIndex = 1 }
+                   x[slideIndex - 1].style.display = "block";
+                   setTimeout(carousel, 2000);
+               }
+</script>
+
+           </form>
+   </body>
+</html>
